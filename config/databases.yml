@@ -1,0 +1,14 @@
+#all:
+#  propel:
+#    class:          sfPropelDatabase
+#    param:
+#      dsn:          mysql://root@localhost/dbname
+  propel:
+    class:      sfPropelDatabase
+    param:
+      phptype:  mysql
+      host:     localhost
+      database: trainstats
+      username: db
+      password: db
+      encoding: utf8      # Default charset for table creation
